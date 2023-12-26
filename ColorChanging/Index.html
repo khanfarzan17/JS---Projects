@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switching App</title>
+</head>
+<body>
+    <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.index {
+    text-align: center;
+}
+
+h1 {
+    color: #555;
+}
+
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #555;
+}
+
+span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+    </style>
+    <div class="index">
+    <h1> Change color According to Your Wish </h1>
+   <span class="button" id="grey"></span>
+   <span class="button" id="white"></span>
+   <span class="button" id="blue"></span>
+   <span class="button" id="yellow"></span>
+   <h2>Click the Above Button  <span>
+    To change the the Colors 
+
+   </span> </h2>
+
+
+</div>
+
+</body>
+<script src="ColorSwitcher.js"></script>
+</html>
