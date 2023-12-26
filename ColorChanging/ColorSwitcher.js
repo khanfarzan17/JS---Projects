@@ -18,7 +18,9 @@ Buttons.forEach(function(btn){
       if(event.target.id==='yellow'){
         Body.style.backgroundColor=event.target.id;
       }
-      
+      if(event.target.id==='purple'){
+        Body.style.backgroundColor=event.target.id;
+      }
     })
    
 })
