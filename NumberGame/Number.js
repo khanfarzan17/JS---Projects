@@ -1,15 +1,15 @@
 // script.js
 
 let totalAttempts = parseInt(document.getElementById('totalAttempts').value);
-let secretNumber = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+let secretNumber = Math.floor(Math.random() * 100) + 1; // Random number between 1 and 100
 
 function checkGuess() {
   const userGuessInput = document.getElementById('userGuess');
   const userGuess = parseInt(userGuessInput.value);
   const messageElement = document.getElementById('message');
 
-  if (isNaN(userGuess) || userGuess < 1 || userGuess > 10) {
-    messageElement.textContent = 'Please enter a valid number between 1 and 10.';
+  if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+    messageElement.textContent = 'Please enter a valid number between 1 and 100.';
   } else {
     totalAttempts--;
 
@@ -28,7 +28,7 @@ function checkGuess() {
 
 function resetGame() {
   totalAttempts = parseInt(document.getElementById('totalAttempts').value);
-  secretNumber = Math.floor(Math.random() * 10) + 1;
+  secretNumber = Math.floor(Math.random() * 100) + 1;
 
   const userGuessInput = document.getElementById('userGuess');
   const messageElement = document.getElementById('message');
