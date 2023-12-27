@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111111; /* Light background color */
+    color: #333; /* Dark text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .Container {
+    width: 300px;
+    padding: 20px;
+    background-color: #1d1d1d; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  #Banner {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #61dafb; /* Banner text color */
+  }
+  
+  #clock {
+    font-size: 2em;
+    position: relative;
+    color: #61dafb; /* Clock color */
+  }
+  
+  
+  
+  
+  
